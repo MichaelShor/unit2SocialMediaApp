@@ -16,38 +16,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaO-mg-DDd">
-                                <rect key="frame" x="142.66666666666666" y="497" width="104.66666666666666" height="44"/>
+                                <rect key="frame" x="149.66666666666666" y="497" width="90.666666666666657" height="38"/>
                                 <color key="tintColor" red="0.396078431372549" green="0.67450980392156867" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Pet Info">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <action selector="PetInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mbz-Ei-6Aw"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0a-q8-Kkv">
-                                <rect key="frame" x="46.666666666666657" y="573" width="297" height="44"/>
+                                <rect key="frame" x="70.333333333333329" y="567" width="249.33333333333337" height="38"/>
                                 <color key="tintColor" red="0.396078431372549" green="0.67450980392156867" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="birthday, age, general info">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSH-v9-aKS">
-                                <rect key="frame" x="87.333333333333329" y="725" width="215.66666666666669" height="44"/>
+                                <rect key="frame" x="104.66666666666667" y="707" width="180.66666666666663" height="38"/>
                                 <color key="tintColor" red="0.396078431372549" green="0.67450980392156867" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="likes and interests">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3f6-se-mgl">
-                                <rect key="frame" x="75.333333333333329" y="649" width="239.66666666666669" height="44"/>
+                                <rect key="frame" x="94.666666666666686" y="637" width="201" height="38"/>
                                 <color key="tintColor" red="0.396078431372549" green="0.67450980392156867" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="current employment">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGa-Fx-ptB">
@@ -128,10 +125,9 @@
                         <outlet property="LikesAndInterests" destination="dSH-v9-aKS" id="cxi-bb-vXy"/>
                         <outlet property="NumberOfLikes" destination="zDI-QW-0N9" id="2iO-TZ-GDn"/>
                         <outlet property="PersonNameLabel" destination="xPx-Xb-Ud1" id="pbD-7G-6Xw"/>
-                        <outlet property="PetInfo" destination="gaO-mg-DDd" id="IVI-Fd-pwN"/>
+                        <outlet property="PetInfo" destination="gaO-mg-DDd" id="5IB-eI-toc"/>
                         <outlet property="ProfileImage" destination="AMk-Ml-uQp" id="0tP-4I-R1F"/>
                         <outlet property="VerifiedCheck" destination="70c-Op-JGZ" id="xc3-V2-EtZ"/>
-                        <outlet property="profileImage" destination="AMk-Ml-uQp" id="cbZ-DX-Vib"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
