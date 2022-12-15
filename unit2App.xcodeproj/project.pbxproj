@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C33E6DB2942256400CD4813 /* blank-profile-picture-973460_1280.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4C33E6DA2942256400CD4813 /* blank-profile-picture-973460_1280.webp */; };
+		4C33E6DD294225CB00CD4813 /* ezgif.com-gif-maker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C33E6DC294225CB00CD4813 /* ezgif.com-gif-maker.jpg */; };
+		4C629AFD2949024B00C279FA /* 458px-Facebook_verified_account_checkmark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C629AFC2949024B00C279FA /* 458px-Facebook_verified_account_checkmark.jpg */; };
+		4C6AF750293A6B6900880AF3 /* MichaelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AF74F293A6B6900880AF3 /* MichaelViewController.swift */; };
 		4CEC9AFD2934F57B00A27D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC9AFC2934F57B00A27D97 /* AppDelegate.swift */; };
 		4CEC9AFF2934F57B00A27D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC9AFE2934F57B00A27D97 /* SceneDelegate.swift */; };
 		4CEC9B012934F57B00A27D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEC9B002934F57B00A27D97 /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C33E6DA2942256400CD4813 /* blank-profile-picture-973460_1280.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "blank-profile-picture-973460_1280.webp"; path = "../../blank-profile-picture-973460_1280.webp"; sourceTree = "<group>"; };
+		4C33E6DC294225CB00CD4813 /* ezgif.com-gif-maker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ezgif.com-gif-maker.jpg"; path = "../../../Downloads/ezgif.com-gif-maker.jpg"; sourceTree = "<group>"; };
+		4C33E6DE294225E600CD4813 /* ezgif.com-gif-maker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ezgif.com-gif-maker.jpg"; sourceTree = "<group>"; };
+		4C629AFC2949024B00C279FA /* 458px-Facebook_verified_account_checkmark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "458px-Facebook_verified_account_checkmark.jpg"; path = "../../../458px-Facebook_verified_account_checkmark.jpg"; sourceTree = "<group>"; };
+		4C6AF74F293A6B6900880AF3 /* MichaelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichaelViewController.swift; sourceTree = "<group>"; };
 		4CEC9AF92934F57B00A27D97 /* unit2App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unit2App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEC9AFC2934F57B00A27D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEC9AFE2934F57B00A27D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,9 @@
 		4CEC9AF02934F57B00A27D97 = {
 			isa = PBXGroup;
 			children = (
+				4C33E6DA2942256400CD4813 /* blank-profile-picture-973460_1280.webp */,
+				4C33E6DC294225CB00CD4813 /* ezgif.com-gif-maker.jpg */,
+				4C6AF74F293A6B6900880AF3 /* MichaelViewController.swift */,
 				4CEC9AFB2934F57B00A27D97 /* unit2App */,
 				4CEC9AFA2934F57B00A27D97 /* Products */,
 			);
@@ -60,7 +72,9 @@
 				4CEC9AFE2934F57B00A27D97 /* SceneDelegate.swift */,
 				4CEC9B002934F57B00A27D97 /* ViewController.swift */,
 				4CEC9B022934F57B00A27D97 /* Main.storyboard */,
+				4C33E6DE294225E600CD4813 /* ezgif.com-gif-maker.jpg */,
 				4CEC9B052934F57C00A27D97 /* Assets.xcassets */,
+				4C629AFC2949024B00C279FA /* 458px-Facebook_verified_account_checkmark.jpg */,
 				4CEC9B072934F57C00A27D97 /* LaunchScreen.storyboard */,
 				4CEC9B0A2934F57C00A27D97 /* Info.plist */,
 			);
@@ -103,7 +117,7 @@
 				};
 			};
 			buildConfigurationList = 4CEC9AF42934F57B00A27D97 /* Build configuration list for PBXProject "unit2App" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,7 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CEC9B092934F57C00A27D97 /* LaunchScreen.storyboard in Resources */,
+				4C33E6DB2942256400CD4813 /* blank-profile-picture-973460_1280.webp in Resources */,
 				4CEC9B062934F57C00A27D97 /* Assets.xcassets in Resources */,
+				4C629AFD2949024B00C279FA /* 458px-Facebook_verified_account_checkmark.jpg in Resources */,
+				4C33E6DD294225CB00CD4813 /* ezgif.com-gif-maker.jpg in Resources */,
 				4CEC9B042934F57B00A27D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6AF750293A6B6900880AF3 /* MichaelViewController.swift in Sources */,
 				4CEC9B012934F57B00A27D97 /* ViewController.swift in Sources */,
 				4CEC9AFD2934F57B00A27D97 /* AppDelegate.swift in Sources */,
 				4CEC9AFF2934F57B00A27D97 /* SceneDelegate.swift in Sources */,
