@@ -64,7 +64,7 @@ class MichaelViewController: UIViewController {
         ProfileImage.layer.borderColor = CGColor(red: 101.0/255.0, green: 172.0/255.0, blue: 230.0/255.0, alpha: 1.0)
     }
 
-    // In the viewDidLoad we are adding
+    // In the viewDidLoad we are adding all of our functions which gave the buttons, labels, and images values from the instance. By calling these functions in the viewDidLoad we are adding them to our view controller as soon as the app is loaded
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpBorders()
@@ -74,11 +74,14 @@ class MichaelViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // In this function we are changing the text of each of the UIButtons based on the values of the instances in the struct
     func addAllNames() {
         BirthdayAgeGeneral.setTitle("\(Person1.name)'s birthday, age, and general info", for: .normal)
         CurrentEmployment.setTitle("\(Person1.name)'s current employment", for: .normal)
         LikesAndInterests.setTitle("\(Person1.name)'s likes and interests", for: .normal)
     }
+    
+    // In this part of the code we create the logic for adding an image of a verified check next to the profile based on certain conditions. In this case, if the number of followers and the number of likes which are two variables defined in the instance of the struct are greater than or equal to 5000 and 1000000 respectively. Based on if these two conditions are met then the function either returns true or false.
     func isVerified() -> Bool {
         if(Person1.followers >= 5000 && Person1.numOfLikes >= 1000000){
             return true
@@ -86,9 +89,10 @@ class MichaelViewController: UIViewController {
             return false
         }
     }
+    //Based on the first part of the function we either have a true value returned or a false value, we then make a conditional which states that if the function above is true meaning that the followers and num of likes is greater than a certain value then we set a UIImage to the verifiedcheck mark
     func VerifiedCheckMark() {
         if (isVerified()) {
-            VerifiedCheck.image = UIImage(named: "VerifiedCheck") ?? UIImage(systemName: "square.and.arrow.up.circle")!//add a conditional so that it does not crash if there is no image that it is looking for.
+            VerifiedCheck.image = UIImage(named: "VerifiedCheck") ?? UIImage(systemName: "square.and.arrow.up.circle")!
         }
     }
 }
