@@ -62,6 +62,18 @@ class MichaelViewController: UIViewController {
         ProfileImage.layer.borderWidth = 5.0
         ProfileImage.layer.cornerRadius = 10.0
         ProfileImage.layer.borderColor = CGColor(red: 101.0/255.0, green: 172.0/255.0, blue: 230.0/255.0, alpha: 1.0)
+        PetInfo.layer.borderWidth = 5.0
+        PetInfo.layer.cornerRadius = 10.0
+        PetInfo.layer.borderColor = CGColor(red: 101.0/255.0, green: 172.0/255.0, blue: 230.0/255.0, alpha: 1.0)
+        BirthdayAgeGeneral.layer.borderWidth = 5.0
+        BirthdayAgeGeneral.layer.cornerRadius = 10.0
+        BirthdayAgeGeneral.layer.borderColor = CGColor(red: 101.0/255.0, green: 172.0/255.0, blue: 230.0/255.0, alpha: 1.0)
+        CurrentEmployment.layer.borderWidth = 5.0
+        CurrentEmployment.layer.cornerRadius = 10.0
+        CurrentEmployment.layer.borderColor = CGColor(red: 101.0/255.0, green: 172.0/255.0, blue: 230.0/255.0, alpha: 1.0)
+        LikesAndInterests.layer.borderWidth = 5.0
+        LikesAndInterests.layer.cornerRadius = 10.0
+        LikesAndInterests.layer.borderColor = CGColor(red: 101.0/255.0, green: 172.0/255.0, blue: 230.0/255.0, alpha: 1.0)
     }
 
     // In the viewDidLoad we are adding all of our functions which gave the buttons, labels, and images values from the instance. By calling these functions in the viewDidLoad we are adding them to our view controller as soon as the app is loaded
